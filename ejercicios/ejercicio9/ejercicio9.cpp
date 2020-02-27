@@ -1,7 +1,16 @@
 #include <iostream>
 using namespace std;
 int main(){
-	int Me;
-cout<<"La media es "<<Me<<endl;
+	int M;
+	int n;
+
+for(int i=1;i<=50;i++){
+n+=i;
+
+}
+
+M=(n/50);
+
+cout<<"La media es "<<M<<endl;
 	return 0; 
 } 
